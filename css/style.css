@@ -1,0 +1,220 @@
+@import"reset.css";
+::selection{
+    background-color: #7347E6;
+    color: #FFF;
+}
+body{
+    background-color: #FAF6F9;
+}
+*{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 52px;
+    line-height: 1.61;
+    color: #FFF;
+    font-weight: 500;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.site-header{
+    padding: 40px 0 26px 0;
+    text-align: center;
+}
+/* .banner-section{
+    background-color: #faf6f9;
+} */
+.banner-section{
+    position: relative;
+    margin-bottom: 389px;
+}
+.banner-section .hand-img-wrapper{
+    position: absolute;
+    right: 3px;
+    top: 414px;
+    width: 753px;
+    height: auto;
+}
+.banner-section .container{
+    position: relative;
+}
+.banner-section .container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    border-radius: 58px;
+    box-shadow: 0 11px 20px 0 rgba(58, 32, 128, 0.25);
+    height: 100%;
+    width: 100%;
+    z-index: -11;
+}
+.banner-section .content-block{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 158px 0 119px;
+}
+.title-wrapper{
+    margin-bottom: 42px;
+}
+.banner-section .para-content{
+    max-width: 922px;
+    margin-bottom: 111px;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 1.62;
+    font-weight: 500;
+    color: #FFF;
+}
+.btn-wrapper,
+.link-wrapper{
+    display: inline-block;
+}
+.site-btn{
+    display: inline-block;
+    background-color: #03ff9d;
+    height: 80px;
+    line-height: 80px;
+    color: #150c2c;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    min-width: 276px;
+    border-radius: 100px;
+}
+.site-btn:hover{
+    background-color: #FFF;
+}
+.site-logo{
+    position: relative;
+    top:-7px;
+    left:17px;
+}
+.banner-section .link-wrapper{
+    margin-left: 60px;
+    position: relative;
+    top: 5px;
+}
+.site-link{ 
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 0.2;
+    font-weight: 500;
+}
+.site-link:hover{
+    color: #03ff9d;
+}
+.what-to-watch-section{
+    margin-top: 0px;
+}
+.what-to-watch-section .para-content{
+    max-width: 1136px;
+}
+.what-to-watch-section .para-content:last-child{
+    margin-bottom: 0;
+}
+.what-to-watch-section p{ 
+    font-family: 'Poppins', sans-serif;
+    color: #150c2c;
+    font-weight: 300;
+    line-height: 1.75;
+}
+.what-to-watch-section p>span{
+    font-weight: 500;
+}
+.what-to-watch-section .content-block{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.what-to-watch-section .content-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.what-to-watch-section .content-grid .grid-item .img-container img{
+    width: 646px;
+    position: relative;
+}
+.grp-imgs{
+    position: relative;
+}
+.grp-imgs .logo-grp{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.grp-imgs .frd-grp{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.grp-imgs .lady-circle{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media(max-width:1366px){
+
+}
+@media(max-width:991px){}
+@media(max-width:767px){
+    .banner-section .content-block{
+        padding: 35px 0 80px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .title-wrapper{
+        margin-bottom: 20px;
+    }
+    .banner-section .para-content{
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo-wrapper img{
+        width: 190px;
+    }
+}
+@media(max-width:576px){
+    .logo-wrapper img{
+        width:150px;
+    }
+    .banner-section .content-block{
+        text-align: center;
+    }
+    .banner-section .btn-wrapper{
+        margin-bottom: 10px;
+    }
+    .banner-section .link-wrapper,
+    .banner-section .btn-wrapper{
+        display: block;
+    }
+    .banner-section .link-wrapper{
+        margin-left: 0;
+    }
+    .what-to-watch-section .content-grid{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .what-to-watch-section .content-grid .grid-item{
+        margin-bottom: 10px;
+    }
+    .what-to-watch-section .content-grid,
+    .what-to-watch-section .para-content{
+        margin-bottom: 20px;
+    }
+}
